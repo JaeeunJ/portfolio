@@ -1,0 +1,53 @@
+* {
+    scroll-behavior: smooth;
+
+    font-family: 'Poppins';
+    user-select: none;
+    margin: 0;
+
+    /*brand*/
+    --color-brand-100: #1848FF;
+    --color-brand-40: #A2B4FE;
+    --color-brand-20: #CCD7FF;
+    --color-brand-10: #E8EBFF;
+
+    /*text*/
+    --color-text-100: #19192E;
+    --color-text-90: #262640;
+    --color-text-60: #484866;
+    --color-text-50: #79799A;
+    --color-text-30: #9E9EC3;
+    --color-text-20: #B6B6DA;
+
+    /*background*/
+    --color-background-primary: #F4F6FF;
+    --color-background-secondary: #F0F0FF;
+    --color-background-tertiary: #E7EAF4;
+}
+
+body {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    background-color: var(--color-background-primary);
+
+    /* -ms-overflow-style: none;
+    scrollbar-width: none;  */
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
