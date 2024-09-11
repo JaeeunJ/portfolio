@@ -1,0 +1,115 @@
+#index-hero {
+    height: 70vh;
+    width: 60vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: auto;
+    margin-left: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+    #index-hero {
+        width: 100vw;
+    }
+}
+
+#hero-highlight {
+    color: var(--color-brand-100)
+}
+
+#index-hero h1 {
+    margin-top: 1.4rem;
+}
+
+#experience-title {
+    color: var(--color-brand-100);
+}
+
+#experience-company {
+    color: var(--color-brand-40)
+}
+
+#experience-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.6vmin;
+}
+
+#experience {
+    margin-right: 6vmax;
+}
+
+#section-content div {
+    margin-bottom: 6vmin;
+}
+
+#subtitle-smaller {
+    margin-left: 1vmax;
+}
+
+#project {
+    padding: 1.25rem;
+    background-color: var(--color-background-secondary);
+    border-radius: 1.2rem;
+    margin-top: 4.6vmin;
+    padding-bottom: 1vmax;
+}
+
+#project-title, #project-title-wrapper {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+#project-title h4 {
+    margin-left: 1vw;
+}
+
+#project-title-wrapper {
+    justify-content: space-between;
+    margin: 1vmax;
+    margin-top: 1.5vmax;
+}
+
+#project-img {
+    overflow: hidden;
+    border-radius: 1rem;
+    display: flex;
+}
+
+#project-img img {
+    width: 80vw;
+    height: 56vh;
+    object-fit: cover;
+    transition: transform 0.75s;
+}
+
+#project-img img:hover {
+    transition: transform 0.75s;
+    transform: scale(1.1);
+
+}
+
+#project-small-wrapper {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top: 7vmin;
+    margin-left: 1vmax;
+}
+
+#project-small {
+    width: 49.5%;
+}
+
+#project-small-title-wrapper {
+    flex-direction: column;
+    margin: 1vw;
+}
+
+#project-small-subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5vmax;
+}

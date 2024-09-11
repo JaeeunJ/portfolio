@@ -1,8 +1,9 @@
 * {
     scroll-behavior: smooth;
 
-    font-family: 'Poppins';
+    font-family: 'Space Grotesk';
     user-select: none;
+    overflow-x: hidden;
     margin: 0;
 
     /*brand*/
@@ -38,9 +39,19 @@ body {
     animation-fill-mode: forwards;
 
     background-color: var(--color-background-primary);
+    color: var(--color-text-100);
 
     /* -ms-overflow-style: none;
     scrollbar-width: none;  */
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 @keyframes fadeInAnimation {
@@ -51,3 +62,246 @@ body {
         opacity: 1;
      }
 }
+
+
+/* image sizes */
+
+.icon-XL {
+    margin-bottom: -0.5vmax;
+    height: 4vmax;
+}
+
+.icon-L {
+    margin-bottom: -0.32vmax;
+    height: 2.4vmax;
+}
+
+.icon-M {
+    height: 2vmax;
+}
+
+.icon-S {
+    height: 1.5vmax;
+    margin-bottom: -0.2vmax;
+}
+
+.icon-XS {
+    height: 0.8rem;
+}
+
+.icon-wrapper {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .icon-XL {
+        margin-bottom: -1vmax;;
+        height: 6vmax;
+    }
+    
+    .icon-L {
+        margin-bottom: -0.8vmax;
+        height: 4vmax;
+    }
+    
+    .icon-M {
+        height: 3vmax;
+    }
+    
+    .icon-S {
+        height: 2.2vmax;
+        margin-bottom: -0.12vmax;
+    }
+    
+    .icon-XS {
+        height: 1.6vmax;
+    }
+}
+
+
+/* font sizes */
+
+h1, h2, h3, h4, h5 {
+    overflow-y: hidden;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 4.5vmax;
+    line-height: 4.7vmax;
+}   
+
+h2 {
+    font-size: 1.64vmax;
+}
+
+h3 {
+    font-size: 1.3vmax;
+
+}
+
+h4 {
+    font-size: 1.2vmax;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1.1vmax;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: var(--color-text-20)
+}
+
+.subtitle-darker {
+    color: var(--color-brand-40)
+}
+
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        font-size: 7vmax;
+        line-height: 7.4vmax;
+    }
+
+    h2 {
+        font-size: 2.8vmax;
+    }
+
+    h3 {
+        font-size: 2vmax;
+        line-height: 2.8vmax;
+    }
+
+    h4 {
+        font-size: 1.8vmax;
+        line-height: 2.4vmax;
+    }
+
+    h5 {
+        font-size: 1.6vmax;
+        line-height: 1.6vmax;
+    }
+}
+
+
+/* buttons */
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.8vmax;
+    padding-top: 0.7vmax;
+    padding-bottom: 0.7vmax;
+    border-radius: 0.6vmax;
+    transition: transform 0.75s;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button h5 {
+    margin-right: 0.4rem !important;
+}
+
+#button-primary {
+    color: var(--color-brand-10);
+    background-color: var(--color-brand-100);
+}
+
+#button-secondary {
+    color: var(--color-brand-100);
+    background-color: var(--color-brand-20);
+}
+
+
+
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.65rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-background-tertiary);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-brand-100)
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    display: block;
+    background: rgba(0, 0, 0, 10);
+  }
+
+
+/*containers*/
+
+section {
+    width: 99vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content {
+    width: 80vw;
+    margin-bottom: 8vmin;
+    margin-top: 8vmin;
+    overflow: visible;
+}
+
+.section-content-wider {
+    width: 82vw;
+    margin-bottom: 8vmin;
+    margin-top: 8vmin;
+}
+
+.section-darker {
+    background-color: var(--color-background-secondary);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+
+/* footer */
+
+#footer {
+    color: var(--color-brand-100);
+    margin-top: 4.6vmin;
+}
+
+#footer-title, #footer-title-wrapper {
+    margin-top: 4.6vmin;
+}
+
+#footer-title img {
+    margin-left: 0.5vmax
+}
+
+#footer-link-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.6vmin;
+}
+
+#footer-link {
+    margin-right: 3vmax;
+}
+
+#footer-link img{
+    margin-left: 0.5vmax;
+}
+
