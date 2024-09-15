@@ -17,6 +17,7 @@
     --color-text-90: #262640;
     --color-text-60: #484866;
     --color-text-50: #79799A;
+    --color-text-40: #9191B9;
     --color-text-30: #9E9EC3;
     --color-text-20: #B6B6DA;
 
@@ -66,6 +67,10 @@ a:hover {
 
 /* image sizes */
 
+.icon-XXL {
+    height: 5vmax;
+}
+
 .icon-XL {
     margin-bottom: -0.5vmax;
     height: 4vmax;
@@ -78,6 +83,10 @@ a:hover {
 
 .icon-M {
     height: 2vmax;
+}
+
+span .icon-M {
+    margin-bottom: -0.5vmax;
 }
 
 .icon-S {
@@ -95,6 +104,10 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     
+    .icon-XXL {
+        height: 7vmax;
+    }
+
     .icon-XL {
         margin-bottom: -1vmax;;
         height: 6vmax;
@@ -122,7 +135,7 @@ a:hover {
 
 /* font sizes */
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     overflow-y: hidden;
     font-weight: 500;
 }
@@ -130,20 +143,20 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 4.5vmax;
     line-height: 4.7vmax;
-}   
+}
 
 h2 {
-    font-size: 1.64vmax;
+    font-size: 3vmax;
+    line-height: 3.5vmax;
 }
 
 h3 {
-    font-size: 1.3vmax;
-
+    font-size: 1.45vmax;
 }
 
 h4 {
-    font-size: 1.2vmax;
-    text-transform: uppercase;
+    font-size: 1.23vmax;
+
 }
 
 h5 {
@@ -151,12 +164,23 @@ h5 {
     text-transform: uppercase;
 }
 
+h6 {
+    font-size: 1vmax;
+    text-transform: uppercase;
+}
+
 .subtitle {
-    color: var(--color-text-20)
+    color: var(--color-text-20);
+    text-transform: uppercase;
 }
 
 .subtitle-darker {
     color: var(--color-brand-40)
+}
+
+b {
+    font-weight: 450;
+    color: var(--color-text-100)
 }
 
 @media screen and (max-width: 768px) {
@@ -167,20 +191,25 @@ h5 {
     }
 
     h2 {
-        font-size: 2.8vmax;
+        font-size: 3.6vmax;
+        line-height: 4vmax;
     }
 
     h3 {
+        font-size: 2.8vmax;
+    }
+
+    h4 {
         font-size: 2vmax;
         line-height: 2.8vmax;
     }
 
-    h4 {
+    h5 {
         font-size: 1.8vmax;
         line-height: 2.4vmax;
     }
 
-    h5 {
+    h6 {
         font-size: 1.6vmax;
         line-height: 1.6vmax;
     }
@@ -195,7 +224,7 @@ h5 {
     padding: 0.8vmax;
     padding-top: 0.7vmax;
     padding-bottom: 0.7vmax;
-    border-radius: 0.6vmax;
+    border-radius: 0.6rem;
     transition: transform 0.75s;
 }
 
@@ -203,7 +232,7 @@ h5 {
     cursor: pointer;
 }
 
-.button h5 {
+.button h6 {
     margin-right: 0.4rem !important;
 }
 
@@ -255,14 +284,14 @@ section {
 }
 
 .section-content {
-    width: 80vw;
+    width: 72vw;
     margin-bottom: 8vmin;
     margin-top: 8vmin;
     overflow: visible;
 }
 
 .section-content-wider {
-    width: 82vw;
+    width: 74vw;
     margin-bottom: 8vmin;
     margin-top: 8vmin;
 }
@@ -280,7 +309,7 @@ section {
 
 #footer {
     color: var(--color-brand-100);
-    margin-top: 4.6vmin;
+    background-color: var(--color-brand-10);
 }
 
 #footer-title, #footer-title-wrapper {

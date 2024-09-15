@@ -14,7 +14,7 @@ nav {
 }
 
 #nav-wrapper {
-    width: 80%;
+    width: 72vw;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
     display: flex;
@@ -47,6 +47,6 @@ nav {
     color: var(--color-text-100) !important;
 }
 
-#nav-center h5 {
+#nav-center h6 {
     padding: 1rem;
 }

@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: end;
     margin-right: auto;
-    margin-left: 10vw;
+    margin-left: 14vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,12 +40,20 @@
     margin-right: 6vmax;
 }
 
+#experience h4 {
+    text-transform: uppercase;
+}
+
 #section-content div {
     margin-bottom: 6vmin;
 }
 
 #subtitle-smaller {
     margin-left: 1vmax;
+}
+
+#project-wrapper {
+    margin-bottom: 4.6vmin;
 }
 
 #project {
@@ -62,7 +70,7 @@
     align-items: center;
 }
 
-#project-title h4 {
+#project-title h5 {
     margin-left: 1vw;
 }
 
@@ -79,7 +87,7 @@
 }
 
 #project-img img {
-    width: 80vw;
+    width: 72vw;
     height: 56vh;
     object-fit: cover;
     transition: transform 0.75s;
@@ -93,7 +101,7 @@
 
 #project-small-wrapper {
     display: flex;
-    width: 80vw;
+    width: 72vw;
     justify-content: space-between;
     margin-top: 7vmin;
     margin-left: 1vmax;
@@ -112,4 +120,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 0.5vmax;
+}
+
+#project-title h4 {
+    margin-left: 0.5rem;
 }
