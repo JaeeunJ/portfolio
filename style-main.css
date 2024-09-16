@@ -73,12 +73,12 @@ a:hover {
 
 .icon-XL {
     margin-bottom: -0.5vmax;
-    height: 4vmax;
+    height: 4.5vmax;
 }
 
 .icon-L {
     margin-bottom: -0.32vmax;
-    height: 2.4vmax;
+    height: 3.1vmax;
 }
 
 .icon-M {
@@ -141,8 +141,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4.5vmax;
-    line-height: 4.7vmax;
+    font-size: 4.8vmax;
+    line-height: 5vmax;
+    font-weight: 500;
 }
 
 h2 {
@@ -160,12 +161,12 @@ h4 {
 }
 
 h5 {
-    font-size: 1.1vmax;
+    font-size: 1.2vmax;
     text-transform: uppercase;
 }
 
 h6 {
-    font-size: 1vmax;
+    font-size: 1.1vmax;
     text-transform: uppercase;
 }
 
