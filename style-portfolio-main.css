@@ -433,3 +433,32 @@ iframe {
     display: block;
     margin-top: 0.5rem;
 }
+
+.section-double-img {
+    display: flex;
+    height: 52vh;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#un-survey-1, #un-survey-2 {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.section-double-img div img {
+    width: 100%;
+    height: auto;
+}
+
+#un-design-system-img {
+    padding: 4%;
+    background-color: var(--color-background-secondary);
+}
