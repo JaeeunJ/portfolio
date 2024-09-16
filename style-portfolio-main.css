@@ -34,25 +34,27 @@
 .hero-detail-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding: 4.5%;
     margin-top: 3rem;
     background-color: var(--color-background-secondary);
     border-radius: 1rem;
 }
 
 .hero-detail h4 {
-    margin-top: 1vmin
+    margin-bottom: 0.25rem;
 }
 
-.hero-detail a h4 {
+.hero-detail img {
+    margin-bottom: 0.8rem;
+}
+
+.hero-detail a h5 {
     text-decoration: underline;
 }
 
 #see-prototype-arrow {
     margin-left: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 .section-title {
