@@ -1,6 +1,6 @@
 #index-hero {
-    height: 66vh;
-    width: 66vmax;
+    margin-top: 0rem;
+    width: 64vmax;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -18,8 +18,23 @@
     color: var(--color-brand-100)
 }
 
+.hero-header-img {
+    width: 72vw;
+    height: auto;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.hero-header-img img {
+    width: 100%;
+}
+
 #index-hero h1 {
     margin-top: 1.4rem;
+}
+
+#index-hero h5 {
+    margin-top: 3rem;
 }
 
 #experience-title {

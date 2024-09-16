@@ -50,3 +50,8 @@ nav {
 #nav-center h6 {
     padding: 1rem;
 }
+
+#nav-placeholder {
+    position:relative;
+    opacity: 0;
+}
