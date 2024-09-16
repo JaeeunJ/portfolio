@@ -21,13 +21,13 @@
                     </a>
                 </div>
                 <div id="nav-center">
-                    <a href="index.html"><h5 id="selected">projects</h5></a>
-                    <a href=""><h5>experiments</h5></a>
-                    <a href="https://drive.google.com/file/d/1YtcVCy14NSERzgKRHqPXUqhMQCyb_76x/view?usp=sharing" target="_blank"><h5>resume</h5></a>
+                    <a href="index.html"><h6 id="selected">projects</h6></a>
+                    <a href=""><h6>experiments</h6></a>
+                    <a href="https://drive.google.com/file/d/1YtcVCy14NSERzgKRHqPXUqhMQCyb_76x/view?usp=sharing" target="_blank"><h6>resume</h6></a>
                 </div>
                 <div id="nav-right">
                     <a href="mailto:c5jeong@uwaterloo.ca" class="button" id="button-primary">
-                        <h5>let's chat</h5>
+                        <h6>let's chat</h6>
                         <div class="icon-wrapper">
                             <img class="icon-XS" src="images/arrows/arrow-white.svg">
                         </div>
@@ -35,26 +35,330 @@
                 </div>
             </div>
         </nav>
+
+        <section>
+            <div class="section-content" id="hero">
+                <a id="related-project-bttn" href="experiments.html/#pv-wrapper">
+                    <div class="button" id="button-secondary">
+                        <h6>related project</h6>
+                        <img class="icon-XS" src="images/arrows/arrow-blue.svg">
+                    </div>
+                </a>
+                <div class="hero-title-wrapper">
+                    <div class="hero-title">
+                        <h1>LiveGuard</h1>
+                    </div>
+                    <div class="hero-desc">
+                        <h4>
+                            LiveGuard is a cloud-based, real-time AI editor whose goal is to protect content creators during livestreams. My roles were UI/UX design, prototyping, and branding.
+                        </h4>
+                    </div> 
+                </div>
+                <div class="hero-detail-wrapper">
+                    <div class="hero-detail">
+                        <h5 class="subtitle">Date</h5>
+                        <h4>August 2023 - PRESENT</h4>
+                    </div>
+                    <div class="hero-detail">
+                        <h5 class="subtitle">Tools</h5>
+                        <h4>Figma, Figjam</h4>
+                    </div>
+                    <div class="hero-detail">
+                        <h5 class="subtitle">The Team</h5>
+                        <h4>1 Product Designer</h4>
+                    </div>
+                    <div class="hero-detail">
+                        <h5 class="subtitle">Prototype</h5>
+                        <a href="https://www.figma.com/file/hukXXzU3gIIq0enGUkeNqI/Demo?type=design&node-id=1149%3A29326&mode=design&t=TH0tfsgfKgq5gUFp-1" target="_blank"><h4>SEE FIGMA PROTOTYPE<span class="icon-wrapper"><img src="images/arrows/arrow-black.svg" class="icon-XS" id="see-prototype-arrow"></span></h4></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-darker">
+            <div class="section-content">
+                <h5 class="subtitle">01. the goal</h5>
+                <h2 class="section-title">Integrating AI with livestreams to create a real-time editing service.</h2>
+                <h4 class="section-desc">A very, very common challenge faced by content creators, especially livestreamers, is <b>demonetization due to platform sanctions</b>. LiveGuard aims to upgrade the live streaming experience by <b>automatically censoring</b> these events while they occur. By seamlessly removing undesired and unpredictable audio and video in <b>real time</b>, streamers can <b>avoid platform penalties</b> with minimum effort. Consequently, the automation of the creative process will <b>save both time and money</b> for its users.</h4>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-content">
+                <h5 class="subtitle">02. our solution</h5>
+                <a href="https://www.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=676%3A50&type=design&node-id=676-51&viewport=716%2C345%2C0.35&t=IJgo9x6apgfBPTr6-8&scaling=contain&starting-point-node-id=676%3A51&hide-ui=1" target="_blank">
+                    <div id="project-img"><img src="images/project/lv-banner.svg"></div>
+                </a>
+                <h2 class="section-title">Creating a web application that seamlessly integrates with the existing streaming experience.</h2>
+
+                <div class="three-part-wrapper">
+                    <div class="three-part">
+                        <h3>Action</h3>
+                        <h4 class="section-desc" id="no-text-indent">A video or audio segment which the user wants to censor.</h4>
+                        <h4 class="subtitle">*Custom triggers & video triggers not supported in MVP</h4>
+                    </div>
+                    <div class="three-part">
+                        <h3>Event</h3>
+                        <h4 class="section-desc" id="no-text-indent">Refers to the Action and Reaction (censorship) together.</h4>
+                    </div>
+                    <div class="three-part">
+                        <h3>Streaming Profile</h3>
+                        <h4 class="section-desc" id="no-text-indent">A collection of Events, which the user activates.</h4>
+                        <h4 class="subtitle">*Removed from MVP</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-darker">
+            <div class="section-content">
+
+                <h5 class="subtitle">03. 1st iteration</h5>
+
+                <div class="section-wrapper" id="no-margin-bottom">
+                    <h2 class="section-title">Initial Requirements</h2>
+                    <div class="section-small">
+                        <div class="section-small-title" id="features-title">
+                            <h3>Proposed features <span class="subtitle"> (Client)</span></h3>
+                            <h4 class="section-desc" id="no-text-indent">Although the features for the MVP were redefined and reduced later on, the original designs were created to encompass these features and requirements:</b></h4>
+                        </div>
+                        <div id="requirements-wrapper">
+                            <div id="requirements">
+                                <div id="requirements-title">
+                                    <h3>Requirements</h3>
+                                </div>
+                                <div id="line"></div>
+                                <h4 class="section-desc" id="no-text-indent">As a streamer, I want to use <b>simple controls</b> that can be activated/deactivated mid-stream.</h4>
+                                <h4 class="section-desc" id="no-text-indent">As a streamer, I want to see <b>analytics</b> on censorships.</h4>
+                                <h4 class="section-desc" id="no-text-indent">As a user, I want an intuitive flow to connect LiveGuard with <b>external applications</b>.</h4>
+                                <h4 class="section-desc" id="no-text-indent">As a user, I want to see a <b>clean and monochrome UI</b>.</h4>
+                            </div>
+                            <div id="requirements">
+                                <div id="requirements-title">
+                                    <h3>Features</h3>
+                                </div>
+                                <div id="line"></div>
+                                <h4 class="section-desc" id="no-text-indent">In-stream controls in the form of an <b>overlay</b>.</h4>
+                                <h4 class="section-desc" id="no-text-indent">A <b>Dashboard</b> to display the different sets of events, a preview of the analytics, and a quick search functionality.</h4>
+                                <h4 class="section-desc" id="no-text-indent">A page to see <b>sets of events</b>, refered to as <b>Streaming Profiles</b>.*</h4>
+                                <h4 class="section-desc" id="no-text-indent">A <b>Triggers</b> library, including an option to create custom triggers.*</h4>
+                                <h4 class="section-desc" id="no-text-indent">An <b>Events</b> library, including an option to create events (by connecting an Action with a Reaction).*</h4>
+                                <h4 class="section-desc" id="no-text-indent">An <b>Analytics</b> page.</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-small">
+                        <div class="section-small-title" id="features-title">
+                            <h3>Refining proposed features with card sorting</h3>
+                            <h4 class="section-desc">Although this is the stage where I would start <b>competitive research</b>, the unique functionalities of the application meant there were no previous points of reference. Instead, the proposed features were <b>refined</b> across multiple meetings between myself and members of the team who had <b>experience live streaming.</b></h4>
+                        </div>
+                        <div class="section-img-middle" id="no-margin-top">
+                            <img src="images/case-study/lv-features.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-wrapper">
+                    <h2 class="section-title">Initial User Flow</h2>
+                    <h4 class="section-desc" id="no-text-indent">I created user flows in order to connect the selected features to the actual application. These flows were confirmed by the team before proceeding.</h4>
+                    <div class="section-img-middle">
+                        <img src="images/case-study/lv-user-flow.png">
+                    </div>
+                </div>
+
+                <div class="section-wrapper">
+                    <h2 class="section-title">Initial Low Fidelity Sketches</h2>
+                    <div class="section-img-middle" id="margin-bottom">
+                        <img src="images/case-study/lv-low-fi.png">
+                    </div>
+                    <h4 class="section-desc" id="no-text-indent">I then created very low fidelity sketches on Figma so I knew what features would appear where. Since the creation stages of the UI were for my eyes only, they were pretty messy- however, they did the job, and I didn’t want to stress too long about staying on a stage when I was certain what it would look like. Pictured here are the early stages of the Dashboard, Actions, Events, Streaming Profiles, and Analytics.</h4>
+                    
+                </div>
+
+                <div class="section-wrapper" id="last-section">
+                    <h2 class="section-title">Initial High Fidelity Prototype</h2>
+                    <div class="section-img-middle" id="no-margin-top">
+
+                    <a id="lv-initial-prototype" href="https://www.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=134%3A2&type=design&node-id=134-3&viewport=168%2C163%2C0.31&t=1SNm8SYIYHTK5ysD-1&scaling=contain&starting-point-node-id=134%3A3&mode=design" target="_blank">
+                        <div id="project-img"><img src="images/case-study/lv-high-fidelity-1.svg"></div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section></section>
+            <div class="section-content">
+                <h5 class="subtitle">04. issues arise</h5>
+                <h2 class="section-title">Updated MVP: Time and Resource Constraints</h2>
+
+                <div class="three-part-wrapper" id="margin-bottom">
+                    <div class="three-part">
+                        <h3>Time</h3>
+                        <h4 class="section-desc" id="no-text-indent">In order to stay within the phases to release, we had to cut the number of things to do.</h4>
+                    </div>
+                    <div class="three-part">
+                        <h3>Resources</h3>
+                        <h4 class="section-desc" id="no-text-indent">The development team were 5 developers who were mostly preoccupied with the machine learning side of the application.</h4>
+                    </div>
+                    <div class="three-part">
+                        <h3>Complexity</h3>
+                        <h4 class="section-desc" id="no-text-indent">Since there were no examples in the market, the complex application may be too difficult for first-time users.</h4>
+                    </div>
+                </div>
+
+                <h4 class="section-desc">Although the project might appear close to completion, that was just the <b>first iteration</b>. Due to unexpected time constraints and lack of resources, the team decided to <b>cut down the MVP requirements</b>. Many features were shelved with promises to implement them later down the line. Multiple <b>important changes</b> were made in order to accommodate these issues.</h4>
+            </div>
+        </section>
+
+        <section class="section-darker">
+            <div class="section-content">
+
+                <h5 class="subtitle">05. 2nd iteration</h5>
+
+                <div class="section-wrapper" id="last-section">
+                    <h2 class="section-title">Updating Features with Card Sorting</h2>
+                    <div class="section-img-middle" id="no-margin-top">
+                        <img src="images/case-study/lv-features-2.png">
+                    </div>
+                    <h4 class="section-desc" id="margin-top">A new, simple list of features were selected based on meetings with the rest of the team and myself, then further refined prviately. Some major changes made include:</h4>
+                    <div class="three-part-wrapper" id="margin-top">
+                        <div class="three-part" id="three-part-darker">
+                            <h4 class="section-desc" id="no-text-indent">The removal of <b>custom Actions</b> and <b>custom Events.</b> Events are, for now, pre-set and only include censoring swear words.</h4>
+                        </div>
+                        <div class="three-part" id="three-part-darker">
+                            <h4 class="section-desc" id="no-text-indent">The replacement of Streaming Profiles (custom grouping) with grouping events by <b>Streaming Platforms.</b></h4>
+                        </div>
+                        <div class="three-part" id="three-part-darker">
+                            <h4 class="section-desc" id="no-text-indent">The removal of the <b>quick search functionality</b> due to the app size being too small for it to be required.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-wrapper">
+                    <h2 class="section-title">Updated User Flow</h2>
+                    <div class="section-img-middle" id="margin-bottom">
+                        <img src="images/case-study/lv-user-flow-2.png">
+                    </div>
+                    <h4 class="section-desc" id="no-text-indent">Based on the updated requirements and features, I created user flows. These flows were confirmed with the team before proceeding. Since I knew the <b>UI would not deviate a great distance from the existing design</b>, I did not create low-fidelity sketches again.</h4>
+                    
+                </div>
+
+                <div class="section-wrapper" id="last-section">
+                    <h2 class="section-title">Updated High Fidelity Prototype</h2>
+                    <div class="section-img-middle" id="no-margin-top">
+
+                    <a id="lv-initial-prototype" href="https://www.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=676%3A50&type=design&node-id=676-51&viewport=1078%2C383%2C0.42&t=GixIjlhjCnNbWRvs-1&scaling=contain&starting-point-node-id=676%3A51&show-proto-sidebar=1&mode=design" target="_blank">
+                        <div id="project-img"><img src="images/case-study/lv-high-fidelity-2.svg"></div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-content">
+                <h5 class="subtitle">06. user testing</h5>
+                <h2 class="section-title">Improving MVP through User Tests</h2>
+                <a href="https://docs.google.com/document/d/1Y8sXElQaKGkHi7mp3Hk4iyhM9EjxHOpApVoo3smTynk/edit?usp=sharing" target="_blank">
+                    <div id="project-img"><img src="images/case-study/lv-user-test.png"></div>
+                </a>
+                <div class="three-part-wrapper" id="margin-top">
+                    <div class="three-part">
+                        <h3>Individual Platform Overlays</h3>
+                        <h4 class="section-desc" id="no-text-indent">Based on feedback, I changed the in-stream overlay from being general to platform specific.</h4>
+                        <h4 class="subtitle">Key binds and Positioning is now is platform-specific.</h4>
+                    </div>
+                    <div class="three-part">
+                        <h3>Updated Calendar Flow</h3>
+                        <h4 class="section-desc" id="no-text-indent">Calendar flow was updated to be more intuitive and less clicks.</h4>
+                    </div>
+                    <div class="three-part">
+                        <h3>Editing from Dashboard</h3>
+                        <h4 class="section-desc" id="no-text-indent">Since all users thought editing the stream key would be possible from the Dashboard.</h4>
+                    </div>
+                </div>
+                <h4 class="section-desc" id="margin-top">The moderated user test was conducted with aquaintances who all have had <b>some level of streaming experience.</b> It allowed me to find several <b>key flaws</b> in the design. There were other updates, but these three made the <b>greatest impact</b> on the structure of the application. All three updates were made based off of paint points that were found throughout all three tests. Features which were brought up by only one or two users will be discussed and implemented at a later date.</h4>
+            </div>
+        </section>
+        
+        <section class="section-darker">
+            <div class="section-content">
+
+                <h5 class="subtitle">07. design system</h5>
+
+                <div class="section-wrapper">
+                    <h2 class="section-title">Palette</h2>
+                    <h4 class="section-desc" id="no-text-indent">When I was choosing the branding colours for LiveGuard, I chose this particular shade of blue due to the colour's long-standing relationship with <b>safety and protection</b> <i>(eg. police)</i>. The app was designed with a <b>darkmode</b> in accordance to the preferences of the intended users.</h4>
+                    <a href="https://www.figma.com/design/OEsYukabkmtgMAQG15esOx/Primitives?node-id=2-5&t=bYFJFMLeI0wQqBW6-1" target="_blank">
+                        <div id="project-img"><img src="images/case-study/lv-palette.svg"></div>
+                    </a>           
+                </div>
+
+                <div class="section-wrapper">
+                    <h2 class="section-title">Typography</h2>
+                    <h4 class="section-desc" id="no-text-indent">I chose a single, sans-serif font to reflect the simple and clean UI of the app.</h4>
+                    <a href="https://www.figma.com/design/OEsYukabkmtgMAQG15esOx/Primitives?node-id=1-4&t=bYFJFMLeI0wQqBW6-1" target="_blank">
+                        <div id="project-img"><img src="images/case-study/lv-typography.svg"></div>
+                    </a>           
+                </div>
+
+                <div class="section-wrapper" id="last-section">
+                    <h2 class="section-title">Components</h2>
+                    <h4 class="section-desc" id="no-text-indent">The component library of LiveGuard is still under progress. Although I did create the designs with consistency in mind, due to the constantly changing designs, the library has yet to be finalized. However, it is currently a top priority, to ensure a smooth handoff to developers.</h4>
+                    <div class="section-img-middle">
+                        <img src="images/case-study/lv-components.svg">
+                    </div>         
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="section-content" id="lv-progress">
+
+                <h5 class="subtitle">08. Progress</h5>
+
+                <h2 class="section-title">Iteratively Designing</h2>
+                <h4 class="section-desc" id="no-text-indent">Although this project is near completion, there are still grounds left to cover in the design iteration cycle. There are still several updates to be made from the <b>user tests</b>.
+                    <br>
+                    <span></span>
+                    This has been a very interesting learning experience for me- it was the first time I was doing freelance work for a startup who had <b>limited resources,</b> and had to <b>compromise</b> on the features of the MVP due to this factor. If I was to to do this project all over again, I think I would've <b>emphasised the importance of having clear guidelines</b> set for the designer, so I would be able to design with the precise requirements in mind. While we may be able to use the first iteration's features in the future, it isn't guaranteed. Overall, LiveGuard is an awesome startup with a very cool application- please look forward to it in the future! Below are some <b>highlights</b> from the application, and the prototype.
+                </h4>
+                <div class="section-img-middle">
+                    <img src="images/case-study/lv-preview-1.svg">
+                </div>    
+                <div class="section-img-middle">
+                    <img src="images/case-study/lv-preview-2.svg">
+                </div>    
+                <div class="section-img-middle">
+                    <img src="images/case-study/lv-preview-3.svg">
+                </div>    
+                <iframe id="margin-top" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhukXXzU3gIIq0enGUkeNqI%2FDemo%3Fpage-id%3D1144%253A10614%26type%3Ddesign%26node-id%3D1149-29326%26viewport%3D1333%252C2162%252C0.2%26t%3DCJjcET4h4dRuX1ls-1%26scaling%3Dcontain%26starting-point-node-id%3D1149%253A29326%26mode%3Ddesign" allowfullscreen></iframe>
+            </div>
+        </section>
+
         <section class="section-darker" id="footer">
             <div class="section-content">
-                <h4 class="subtitle-darker">03. i’m looking for a job in ux.. 4 months.. co-op.. winter.. </h4>
+                <h5 class="subtitle-darker">i’m looking for a job in ux.. 4 months.. co-op.. winter.. </h5>
                 <div id="footer-title">
-                    <h2>seeking winter 2025 opportunities<span class="icon-wrapper"><img src="images/decor/sparkle.svg" class="icon-S"></span></h2>
+                    <h3>seeking winter 2025 opportunities<span class="icon-wrapper"><img src="images/decor/sparkle.svg" class="icon-S"></span></h3>
                 </div>
                 <div id="footer-link-wrapper">
                     <a href="https://drive.google.com/file/d/1YtcVCy14NSERzgKRHqPXUqhMQCyb_76x/view?usp=sharing" target="_blank">
                         <div id="footer-link">
-                            <h4>resume<span class="icon-wrapper"><img src="images/arrows/arrow-blue.svg" class="icon-XS"></span></h4>
+                            <h5>resume<span class="icon-wrapper"><img src="images/arrows/arrow-blue.svg" class="icon-XS"></span></h5>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/charissa-jeong-509ba3217/" target="_blank">
                         <div id="footer-link">
-                            <h4>linkedin<span class="icon-wrapper"><img src="images/arrows/arrow-blue.svg" class="icon-XS"></span></h4>
+                            <h5>linkedin<span class="icon-wrapper"><img src="images/arrows/arrow-blue.svg" class="icon-XS"></span></h5>
                         </div>
                     </a>
                     <a href="mailto:c5jeong@uwaterloo.ca">
                         <div id="footer-link">
-                            <h4>email<span class="icon-wrapper"><img src="images/arrows/arrow-blue.svg" class="icon-XS"></span></h4>
+                            <h5>email<span class="icon-wrapper"><img src="images/arrows/arrow-blue.svg" class="icon-XS"></span></h5>
                         </div>
                     </a>
                 </div>

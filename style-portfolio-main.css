@@ -374,3 +374,62 @@ iframe {
 .persona-content h6 span {
     margin-right: 0.5rem;
 }
+
+
+/* --- */
+
+
+.three-part-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.three-part {
+    padding: 2.4%;
+    border-radius: 1rem;
+    background-color: var(--color-background-secondary);
+    width: 27.8%;
+}
+
+#three-part-darker {
+    background-color: var(--color-brand-10);
+}
+
+.three-part h3, .three-part .section-desc {
+    margin-bottom: 1rem;
+}
+
+#features-title h4 {
+    width: 49%;
+    margin-bottom: 2rem;
+}
+
+#features-title h3 {
+    width: 30%;
+}
+
+#no-margin-top {
+    margin-top: 0rem;
+}
+
+#no-margin-bottom {
+    margin-bottom: 0rem;
+}
+
+#margin-bottom {
+    margin-bottom: 2rem;
+}
+
+#margin-top {
+    margin-top: 2rem;
+}
+
+#lv-initial-prototype div{
+    margin-top: 0rem;
+}
+
+#lv-progress h4 span {
+    display: block;
+    margin-top: 0.5rem;
+}
