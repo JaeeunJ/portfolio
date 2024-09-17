@@ -35,7 +35,7 @@ body {
     justify-content: center;
     flex-direction: column;
 
-    animation: fadeInAnimation ease 1.5s;
+    animation: fadeInAnimation ease 2.2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
