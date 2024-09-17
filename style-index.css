@@ -80,10 +80,15 @@
 
 #project {
     padding: 1.25rem;
-    background-color: var(--color-background-secondary);
     border-radius: 1.2rem;
     margin-top: 4.6vmin;
     padding-bottom: 1vmax;
+    transition: 0.5s;
+}
+
+#project:hover {
+    transition: 0.5s;
+    background-color: var(--color-background-secondary);
 }
 
 #project-title, #project-title-wrapper {
@@ -146,4 +151,25 @@
 
 #project-title h4 {
     margin-left: 0.5rem;
+}
+
+.highlight-wrapper {
+    display: flex;
+    margin: 1vmax;
+
+}
+
+.highlight {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 100rem;
+    background-color: var(--color-brand-10);
+    color: var(--color-brand-100);
+    margin-right: 0.5rem;
+}
+
+.highlight h6 {
+    font-weight: 520;
 }

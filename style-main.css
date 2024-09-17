@@ -22,7 +22,7 @@
     --color-text-20: #B6B6DA;
 
     /*background*/
-    --color-background-primary: #F4F6FF;
+    --color-background-primary: #F6F7FF;
     --color-background-secondary: #F0F0FF;
     --color-background-tertiary: #E7EAF4;
 }
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 4.6vmax;
-    line-height: 4.25vmax;
+    line-height: 4.4vmax;
     overflow: visible;
 }
 
@@ -183,6 +183,7 @@ b {
     font-weight: 450;
     color: var(--color-text-100)
 }
+
 
 @media screen and (max-width: 768px) {
     
