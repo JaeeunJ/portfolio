@@ -151,14 +151,6 @@
     align-items: center;
 }
 
-#line {
-    display:block;
-    width:100%;
-    border-top: 0.15em solid var(--color-brand-20);
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
- }
-
 #requirements-wrapper {
     display: flex;
     justify-content: space-between;
