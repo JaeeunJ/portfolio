@@ -142,7 +142,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 4.6vmax;
-    line-height: 4.8vmax;
+    line-height: 4.5vmax;
+    overflow: visible;
 }
 
 h2 {
@@ -284,14 +285,14 @@ section {
 }
 
 .section-content {
-    width: 72vw;
+    width: 76vw;
     margin-bottom: 8vmin;
     margin-top: 8vmin;
     overflow: visible;
 }
 
 .section-content-wider {
-    width: 74vw;
+    width: 78vw;
     margin-bottom: 8vmin;
     margin-top: 8vmin;
 }

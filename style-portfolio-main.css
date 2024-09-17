@@ -24,6 +24,7 @@
 
 .hero-title, .hero-desc {
     width: 48%;
+    overflow: hidden;
 }
 
 .hero-desc h4 {
@@ -45,7 +46,7 @@
 }
 
 .hero-detail img {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
 }
 
 .hero-detail a h5 {
@@ -65,7 +66,7 @@
 .section-desc {
     font-weight: 400;
     text-indent: 2rem;
-    color: var(--color-text-50)
+    color: var(--color-text-50);
 }
 
 #project-img {

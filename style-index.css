@@ -1,11 +1,8 @@
 #index-hero {
     margin-top: 0rem;
-    width: 72vmax;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    margin-right: auto;
-    margin-left: 14vw;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,14 +15,22 @@
     color: var(--color-brand-100)
 }
 
-.hero-header-img {
-    width: 72vw;
-    height: auto;
+.hero-header-scroll {
+    margin-top: 6vh;
+    margin-bottom: -2vh;
     display: flex;
-    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-.hero-header-img img {
+.hero-header-img {
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.hero-header-img img{
     width: 100%;
 }
 
@@ -34,7 +39,7 @@
 }
 
 #index-hero h5 {
-    margin-top: 5.5rem;
+    margin-top: 8vh;
 }
 
 #experience-title {
@@ -102,7 +107,7 @@
 }
 
 #project-img img {
-    width: 72vw;
+    width: 76vw;
     height: 56vh;
     object-fit: cover;
     transition: transform 0.75s;
@@ -116,7 +121,7 @@
 
 #project-small-wrapper {
     display: flex;
-    width: 72vw;
+    width: 76vw;
     justify-content: space-between;
     margin-top: 7vmin;
     margin-left: 1vmax;
