@@ -172,3 +172,28 @@
 .highlight h6 {
     font-weight: 520;
 }
+
+#message {
+    margin-top: 6vmin;
+    margin-left: 1vw;
+    width: 73vw;
+    padding: 1.25rem;
+    border-radius: 1.2rem;
+    display: flex;
+    background-color: var(--color-background-secondary);
+    border: 0.2rem solid var(--color-brand-10);
+}
+
+#message img {
+    margin-right: 1.25rem;
+}
+
+#message-title h3 {
+    color: var(--color-brand-100);
+}
+
+#message-title h5 {
+    margin-top: 0.25rem;
+    color: var(--color-brand-40)
+}
+
