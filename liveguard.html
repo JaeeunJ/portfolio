@@ -74,7 +74,7 @@
                     <div class="hero-detail">
                         <img src="images/icons/prototype.svg" class="icon-M">
                         <h4>Prototype</h4>
-                        <a href="https://www.figma.com/file/hukXXzU3gIIq0enGUkeNqI/Demo?type=design&node-id=1149%3A29326&mode=design&t=TH0tfsgfKgq5gUFp-1" target="_blank"><h5 class="subtitle">SEE FIGMA PROTOTYPE<span class="icon-wrapper"><img src="images/arrows/arrow-brand-40.svg" class="icon-XS" id="see-prototype-arrow"></span></h5></a>
+                        <a href="https://www.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=2083%3A7&node-id=2103-3233&node-type=frame&viewport=1531%2C120%2C0.06&t=A4qEpBvEMaQ47MSi-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2103%3A3233" target="_blank"><h5 class="subtitle">SEE FIGMA PROTOTYPE<span class="icon-wrapper"><img src="images/arrows/arrow-brand-40.svg" class="icon-XS" id="see-prototype-arrow"></span></h5></a>
                     </div>
                 </div>
             </div>
@@ -84,14 +84,22 @@
             <div class="section-content">
                 <h5 class="subtitle">01. the goal</h5>
                 <h2 class="section-title">Integrating AI with livestreams to create a real-time editing service.</h2>
-                <h4 class="section-desc">A very, very common challenge faced by content creators, especially livestreamers, is <b>demonetization due to platform sanctions</b>. LiveGuard aims to upgrade the live streaming experience by <b>automatically censoring</b> these events while they occur. By seamlessly removing undesired and unpredictable audio and video in <b>real time</b>, streamers can <b>avoid platform penalties</b> with minimum effort. Consequently, the automation of the creative process will <b>save both time and money</b> for its users.</h4>
+                <div id="message">
+                    <img src="images/icons/message.svg" class="icon-L">
+                    <div id="message-title">
+                        <h3>demonetization</h3>
+                        <h4><b>Removal or restriction</b> of one's ability to <b>earn revenue</b> from their content due to violations of platform policies or content deemed inappropriate for advertisers.</h4>
+                    </div>
+                </div>
+                <h4 class="section-desc">A very, very common challenge faced by content creators, especially livestreamers, is <b>demonetization due to platform sanctions</b>. These rules become <b>stricter every year</b>- especially for content giant Youtube- a move widely critisized by both content creators and viewers alike. Content creators must make sure their content is squeaky clean, or days of their hard work can become fruitless from one small mistake.</h4>
+                <h4 class="section-desc" id="margin-top">LiveGuard aims to upgrade the live streaming experience by <b>automatically censoring</b> these events while they occur. By seamlessly removing undesired and unpredictable audio and video in <b>real time</b>, streamers can <b>avoid platform penalties</b> with minimum effort. Consequently, the automation of the creative process will <b>save both time and money</b> for its users.</h4></h4>
             </div>
         </section>
 
         <section>
             <div class="section-content">
                 <h5 class="subtitle">02. our solution</h5>
-                <a href="https://www.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=676%3A50&type=design&node-id=676-51&viewport=716%2C345%2C0.35&t=IJgo9x6apgfBPTr6-8&scaling=contain&starting-point-node-id=676%3A51&hide-ui=1" target="_blank">
+                <a href="https://www.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=2083%3A7&node-id=2103-3233&node-type=frame&viewport=1531%2C120%2C0.06&t=A4qEpBvEMaQ47MSi-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2103%3A3233" target="_blank">
                     <div id="project-img"><img src="images/project/lv-banner.svg"></div>
                 </a>
                 <h2 class="section-title">Creating a web application that seamlessly integrates with the existing streaming experience.</h2>
@@ -160,6 +168,40 @@
                         </div>
                         <div class="section-img-middle" id="no-margin-top">
                             <img src="images/case-study/lv-features.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-wrapper">
+                    <h2 class="section-title">User Persona</h2>
+                    <h4 class="section-desc" id="no-text-indent">To better understand the audience, I defined the general user persona and checked it over with the team before proceeding.</h4>
+                    <div class="persona-wrapper"  id="persona-darker">
+                        <div class="persona-img">
+                            <img src="images/case-study/lg-persona.svg">
+                        </div>
+                        <div class="persona-content">
+                            <div class="persona-header">
+                                <h3>Christie, 24</h3>
+                                <div class="persona-desc">
+                                    <h6 class="subtitle">
+                                        <span class="icon-wrapper">
+                                            <img src="images/icons/location.svg" class="icon-S">
+                                        </span>
+                                        Twitch, Youtube
+                                    </h6>
+                                    <h6 class="subtitle">
+                                        <span class="icon-wrapper">
+                                            <img src="images/icons/job.svg" class="icon-S">
+                                        </span>
+                                        Streamer & Content Creator
+                                    </h6>
+                                </div>
+                            </div>
+                            <h4 class="section-desc">
+                                A part-time, medium-sized content creator. Her content includes vlogs, which she first streams on both Twitch and Youtube, then edits them herself to post on Youtube. She is frustrated by the amount of time she has to put in, rewatching her long streams to check for any case of violating Youtube's strict sanctions.
+                            <div class="persona-state" id="margin-top">
+                                <h4 class="section-desc" id="no-text-indent"><b>Pain points:</b> too much time taken to edit potential mistakes, difficult to keep her vocabulary in check for the multiple hours she's streaming</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -286,11 +328,37 @@
                 <h4 class="section-desc" id="margin-top">The moderated user test was conducted with aquaintances who all have had <b>some level of streaming experience.</b> It allowed me to find several <b>key flaws</b> in the design. There were other updates, but these three made the <b>greatest impact</b> on the structure of the application. All three updates were made based off of paint points that were found throughout all three tests. Features which were brought up by only one or two users will be discussed and implemented at a later date.</h4>
             </div>
         </section>
-        
+
         <section class="section-darker">
             <div class="section-content">
+                <h5 class="subtitle">07. the final update</h5>
+                <h2 class="section-title">Final MVP Scope Update Due to Technical Constraints</h2>
+                <h4 class=section-desc id="last-section">As the developer team continued to enhance the machine learning model, they discovered that our current list of features was still <b>too ambitious</b> for the number of hands on deck. A second MVP scope update was done- the previous processes were repeated, with the following information in mind.</h4>
+                <div id="requirements-wrapper">
+                    <div id="requirements">
+                        <div id="requirements-title">
+                            <h3>No Analytics</h3>
+                        </div>
+                        <div id="line"></div>
+                        <h4 class="section-desc" id="no-text-indent">The analytics page was removed altogether, although it is a feature that is going to be added back further down the line.</h4>
+                        
+                    </div>
+                    <div id="requirements">
+                        <div id="requirements-title">
+                            <h3>No In-stream Overlay</h3>
+                        </div>
+                        <div id="line"></div>
+                        <h4 class="section-desc" id="no-text-indent">The in-stream overlay option was eliminated due to priority shifting, and therefore <b>all customization menu options were no longer needed.</b></h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="section-content">
 
-                <h5 class="subtitle">07. design system</h5>
+                <h5 class="subtitle">08. design system</h5>
 
                 <div class="section-wrapper">
                     <h2 class="section-title">Palette</h2>
@@ -319,27 +387,21 @@
             </div>
         </section>
 
-        <section>
+        <section class="section-darker">
             <div class="section-content" id="lv-progress">
 
-                <h5 class="subtitle">08. Progress</h5>
+                <h5 class="subtitle">09. retrospective</h5>
 
-                <h2 class="section-title">Iteratively Designing</h2>
-                <h4 class="section-desc" id="no-text-indent">Although this project is near completion, there are still grounds left to cover in the design iteration cycle. There are still several updates to be made from the <b>user tests</b>.
+                <h2 class="section-title">Next Steps + Key Takeaways</h2>
+                <h4 class="section-desc" id="no-text-indent">Although this project is near completion, there are still grounds left to cover in the design iteration cycle. There are still several updates to be made from the <b>user tests</b>. My next steps will definitely include conducting more <b>user tests</b>, as well as exploring more <b>edge cases</b> and expanding the <b>design system</b>.
                     <br>
                     <span></span>
-                    This has been a very interesting learning experience for me- it was the first time I was doing freelance work for a startup who had <b>limited resources,</b> and had to <b>compromise</b> on the features of the MVP due to this factor. If I was to to do this project all over again, I think I would've <b>emphasised the importance of having clear guidelines</b> set for the designer, so I would be able to design with the precise requirements in mind. While we may be able to use the first iteration's features in the future, it isn't guaranteed. Overall, LiveGuard is an awesome startup with a very cool application- please look forward to it in the future! Below are some <b>highlights</b> from the application, and the prototype.
+                    As my first freelance end-to-end project, I learned so, so much from the design process. Factors such as <b>limited resources</b> and <b>unclear guidelines</b> impacted the project far more than anticipated. I now have a better grasp on <b>balancing the resources</b> available with the MVP scope. If I was supposed to do this project again, I think I would emphasize on the importance of defining a <b>realistic scope</b> for the project earlier on, and spend more time discussing the limits with the team. While we may use the first iteration’s features in the future, it isn’t guaranteed.
+                    <br>
+                    <span></span>
+                    Overall, LiveGuard is an awesome startup filled with a lot of cool people, please look forward to its launch in the future!
                 </h4>
-                <div class="section-img-middle">
-                    <img src="images/case-study/lv-preview-1.svg">
-                </div>    
-                <div class="section-img-middle">
-                    <img src="images/case-study/lv-preview-2.svg">
-                </div>    
-                <div class="section-img-middle">
-                    <img src="images/case-study/lv-preview-3.svg">
-                </div>    
-                <iframe id="margin-top" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhukXXzU3gIIq0enGUkeNqI%2FDemo%3Fpage-id%3D1144%253A10614%26type%3Ddesign%26node-id%3D1149-29326%26viewport%3D1333%252C2162%252C0.2%26t%3DCJjcET4h4dRuX1ls-1%26scaling%3Dcontain%26starting-point-node-id%3D1149%253A29326%26mode%3Ddesign" allowfullscreen></iframe>
+                <iframe id="margin-top" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/hukXXzU3gIIq0enGUkeNqI/Demo?page-id=2083%3A7&node-id=2103-3585&node-type=frame&viewport=1531%2C120%2C0.06&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2103%3A3233&embed-host=share" allowfullscreen></iframe>
             </div>
         </section>
 

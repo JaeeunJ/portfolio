@@ -475,3 +475,37 @@ iframe {
     background-color: var(--color-background-secondary);
     background-color: var(--color-brand-10);
 }
+
+#message {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 73vw;
+    padding: 1.25rem;
+    border-radius: 1.2rem;
+    display: flex;
+    background-color: var(--color-brand-10);
+    border: 0.1rem solid var(--color-brand-20);
+}
+
+#message img {
+    margin-right: 1.25rem;
+}
+
+#message-title h3 {
+    color: var(--color-brand-100);
+}
+
+#message-title h4 {
+    margin-top: 0.25rem;
+    color: var(--color-brand-60);
+    font-weight: 400;
+}
+
+#message-title h4 b {
+    color: var(--color-brand-100);
+}
+
+#persona-darker {
+    background-color: var(--color-brand-10);
+}
+
