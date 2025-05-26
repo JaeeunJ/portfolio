@@ -26,21 +26,16 @@ nav {
 #nav-left, #nav-center, #nav-right {
     display: flex;
     align-items: center;
-}
-
-#nav-left {
-    width: 12vw;
+    width: 33%;
 }
 
 #nav-right {
     justify-content: right;
-    width: 20vw;
 }
 
 #nav-center {
     justify-content: center;
     color: var(--color-text-30);
-    width: 100%;
 }
 
 #selected {

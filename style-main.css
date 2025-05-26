@@ -141,10 +141,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4.6vmax;
-    line-height: 4.5vmax;
+    font-size: 4vmax;
+    line-height: 4.2vmax;
     overflow: visible;
     font-family: 'Space Grotesk';
+    font-weight: 500;
 }
 
 h2 {
