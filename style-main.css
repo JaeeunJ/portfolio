@@ -1,7 +1,6 @@
 * {
     scroll-behavior: smooth;
 
-    font-family: 'Space Grotesk';
     user-select: none;
     overflow-x: hidden;
     margin: 0;
@@ -145,43 +144,52 @@ h1 {
     font-size: 4.6vmax;
     line-height: 4.5vmax;
     overflow: visible;
+    font-family: 'Space Grotesk';
 }
 
 h2 {
     font-size: 3vmax;
     line-height: 3.5vmax;
+    font-family: 'Space Grotesk';
 }
 
 h3 {
     font-size: 1.5vmax;
+    font-family: 'Space Grotesk';
 }
 
 h4 {
-    font-size: 1.25vmax;
+    font-size: 1.3vmax;
     line-height: 1.7vmax;
+    font-family: 'Space Grotesk';
 }
 
 h5 {
-    font-size: 1.2vmax;
+    font-size: 1.25vmax;
     text-transform: uppercase;
+    font-family: 'Space Grotesk';
 }
 
 h6 {
-    font-size: 1.1vmax;
+    font-size: 1.125vmax;
     text-transform: uppercase;
+    font-family: 'Spline Sans';
+    font-weight: 550;
 }
 
 .subtitle {
     color: var(--color-text-20);
     text-transform: uppercase;
+    font-family: 'Space Grotesk';
 }
 
 .subtitle-darker {
-    color: var(--color-brand-40)
+    color: var(--color-brand-40);
+    font-family: 'Space Grotesk';
 }
 
 b {
-    font-weight: 450;
+    font-weight: 550;
     color: var(--color-text-100)
 }
 
@@ -340,6 +348,10 @@ section {
 
 #footer-link {
     margin-right: 3vmax;
+}
+
+#footer-link h6 {
+    font-weight: 500;
 }
 
 #footer-link img{

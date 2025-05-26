@@ -47,8 +47,9 @@ nav {
     color: var(--color-text-100) !important;
 }
 
-#nav-center h6 {
+#nav-center h5 {
     padding: 1rem;
+    font-weight: 550;
 }
 
 #nav-placeholder {
