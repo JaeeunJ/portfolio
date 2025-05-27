@@ -22,7 +22,7 @@
     --color-text-20: #B6B6DA;
 
     /*background*/
-    --color-background-primary: #F6F7FF;
+    --color-background-primary: #f4f5fd;
     --color-background-secondary: #F0F0FF;
     --color-background-tertiary: #E7EAF4;
 }
@@ -359,3 +359,20 @@ section {
     margin-left: 0.5vmax;
 }
 
+@keyframes MoveUpDown1 {
+    0%, 110% {
+      transform: translateY(0.3vh);
+    }
+    40% {
+      transform: translateY(-0.3vh);
+    }
+  }
+
+@keyframes MoveUpDown2 {
+    0%, 120% {
+      transform: translateY(-0.3vh);
+    }
+    60% {
+      transform: translateY(0.3vh);
+    }
+  }

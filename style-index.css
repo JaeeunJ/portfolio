@@ -1,24 +1,51 @@
 #index-hero {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-    #index-hero {
-        width: 100vw;
-    }
-}
-
 #hero-highlight {
     color: var(--color-brand-100)
 }
 
+.hero-decor-wrapper {
+    overflow: visible; 
+    width: auto;
+}
+
+.hero-vibes {
+    position: absolute;
+    overflow: visible;
+    width: 76vw;
+}
+
+#degree {
+    animation: MoveUpDown1 1s linear infinite;
+    margin-left: -100%;
+    margin-top: 6%;
+    width: 16vmax;
+    rotate: -8deg;
+}
+
+#bucket {
+    animation: MoveUpDown1 1s linear infinite;
+    margin-left: 76%;
+    width: 18vmax;
+    margin-top: -12%;
+}
+
+#book {
+    animation: MoveUpDown2 1s linear infinite;
+    margin-left: 4%;
+    margin-top: 12%;
+    width: 20vmax;
+}
+
 .hero-header-scroll {
     margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-bottom: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,6 +61,18 @@
 
 .hero-header-img img{
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #index-hero {
+        width: 100vw;
+    }
+    .hero-vibes {
+        display: none;
+    }
+    .hero-header-img {
+        display: none;
+    }
 }
 
 #index-hero h1 {
@@ -64,7 +103,7 @@
 }
 
 #experience {
-    margin-right: 6vmax;
+    margin-right: 4vmax;
 }
 
 #experience h4 {
